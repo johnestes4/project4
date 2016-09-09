@@ -17,4 +17,4 @@ DogModel.deleteTodo = function(todoId){
   return request
 }
 
-module.exports = TodoModel
+module.exports = DogModel

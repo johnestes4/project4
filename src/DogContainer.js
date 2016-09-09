@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Dog from './Dog'
+import DogModel from './models/Dog'
 
 class DogContainer extends Component {
   constructor(props){
