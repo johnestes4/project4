@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import DogContainer from './DogContainer'
+import DogsContainer from './DogsContainer'
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <DogContainer />
+        <DogsContainer />
       </div>
     );
   }

@@ -19,10 +19,11 @@ const styles = {
   },
   dogContainer: {
     width: '400px',
-    height: '550px',
+    paddingBottom: '20px',
     border: "3px solid black",
     background: 'rgb(225, 225, 230)',
     margin: '0 auto',
+    marginTop: '10px',
     textAlign: 'center',
   },
   ratingField: {

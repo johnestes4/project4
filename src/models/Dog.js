@@ -3,17 +3,22 @@ import axios from 'axios'
 function DogModel(){}
 
 DogModel.all = function(){
-  var request = axios.get("http://localhost:4000/todos")
+  var request = axios.get("http://localhost:4000/dogs")
   return request
 }
 
-DogModel.create = function(todo){
-  var request = axios.post("http://localhost:4000/todos", todo)
+DogModel.create = function(dog){
+  var request = axios.post("http://localhost:4000/dogs", dog)
   return request
 }
 
-DogModel.deleteTodo = function(todoId){
-  var request = axios.delete(`http://localhost:4000/todos/${todoId}`)
+DogModel.update = function(dogId, dogRating, dogBonus){
+  var request = axios.put(`http://localhost:4000/dogs/${dogId}`, {rating: dogRating, bonus: dogBonus})
+  return request
+}
+
+DogModel.deleteDog = function(dogId){
+  var request = axios.delete(`http://localhost:4000/dogs/${dogId}`)
   return request
 }
 
