@@ -8,7 +8,7 @@ class Dogs extends Component {
       return(
         <Dog
           key={dog.id}
-          dog={dog}
+          dog={dog} 
           handleDogSubmit={this.props.handleDogSubmit.bind(this) }
           handleRatingChange={this.props.handleRatingChange.bind(this) }
           handlePettableChange={this.props.handlePettableChange.bind(this) }
