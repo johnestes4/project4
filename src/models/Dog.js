@@ -13,7 +13,7 @@ DogModel.create = function(dog){
 }
 
 DogModel.update = function(dogId, dogRating, dogBonus){
-  var request = axios.put(`http://localhost:4000/dogs/${dogId}`, {rating: dogRating, bonus: dogBonus})
+  var request = axios.put(`http://localhost:4000/dogs/${dogId}`, {rating: dogRating, old_rating: dogRating, bonus: dogBonus})
   return request
 }
 

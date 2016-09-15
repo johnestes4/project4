@@ -4,6 +4,15 @@ body {
   font-family: sans-serif;
 }
 header {
-  font-size: 2em;
+  font-size: 1em;
+  font-weight: bold;
   text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  top: 0;
+  width: 100%;
+  position: relative;
+  margin-top: -20px;
+  padding-bottom: 1px;
+  padding-top: 5px;
 }

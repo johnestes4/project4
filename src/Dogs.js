@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+// import styles from './styles/index'
 import Dog from './Dog'
 
 class Dogs extends Component {
@@ -16,10 +17,8 @@ class Dogs extends Component {
       )
     }, this)
     return (
-      <div className="dogsContainer">
-        <div className="dogs incomplete col-md-6">
-          {dogs}
-        </div>
+      <div>
+        {dogs[this.props.whichDog]}
       </div>
     )
   }
