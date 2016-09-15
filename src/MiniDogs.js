@@ -13,8 +13,10 @@ class MiniDogs extends Component {
       )
     }, this)
     return (
-      <div style={styles.miniDogRow}>
-          {dogs}
+      <div style={styles.miniDogRowOuter} id='miniDogRowOuter'>
+        <div style={styles.miniDogRow}>
+            {dogs}
+        </div>
       </div>
     )
   }
