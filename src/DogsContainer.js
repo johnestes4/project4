@@ -42,10 +42,6 @@ class DogsContainer extends Component {
     if (evt.target.value > 12) {
       evt.target.value = 12
     }
-    else if (evt.target.value < 1) {
-      evt.target.value = 1
-    }
-
     dog.rating = evt.target.value
     this.setState({rating: dog.rating})
   }

@@ -8,7 +8,7 @@ class Dog extends Component {
     return (
       <div style={styles.dogContainer}>
         <div style={styles.dogPictureContainer}>
-          <img src={dog.img_url} style={styles.dogPicture} alt='pupper'></img>
+          <img src={dog.img_url} style={styles.dogPicture} class="fancybox" alt='pupper'></img>
         </div>
         <form onSubmit={(evt) => handleDogSubmit(evt, this.props.dog)}>
           <h3>RATING: {dog.old_rating}/10</h3>

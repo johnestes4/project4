@@ -24,6 +24,7 @@ const styles = {
   dogContainer: {
     width: '500px',
     position: 'absolute',
+    top: '10%',
     left: '50%',
     marginLeft: '-250px',
     height: '69%', //nice
@@ -32,7 +33,6 @@ const styles = {
     background: 'rgba(75, 75, 75, 0.75)',
     boxShadow: '2px 2px 2px 2px rgba(50, 50, 50, 0.75)',
     color: 'white',
-    marginTop: '10px',
     textAlign: 'center',
     textShadow: '1px 1px 2px rgba(50, 50, 50, 0.75)',
   },

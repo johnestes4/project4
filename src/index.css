@@ -2,7 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("../dogs-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 header {
   font-size: 1em;
   font-weight: bold;
@@ -11,7 +16,8 @@ header {
   color: white;
   top: 0;
   width: 100%;
-  position: relative;
+  height: 11%;
+  position: absolute;
   margin-top: -20px;
   padding-bottom: 1px;
   padding-top: 5px;
@@ -21,3 +27,11 @@ header {
   height: 0px;
   background: transparent;
 }
+
+/*#aboutText {
+  height: 98%;
+  position: absolute;
+  font-size: 1.2em;
+  top: 48%;
+  left: 3%;
+}*/
