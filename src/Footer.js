@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <footer style={styles.footer}>with apologies to @dog_rates</footer>
+        <footer style={styles.footer}>scroll through these dogs and give them your best rating</footer>
       </div>
     );
   }
