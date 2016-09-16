@@ -160,7 +160,6 @@ class DogsContainer extends Component {
           this.setState({
             whichDog: newDog
           })
-
         }.bind(this))
       }.bind(this))
     }

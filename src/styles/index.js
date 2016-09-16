@@ -9,6 +9,15 @@ const styles = {
   textOverflow: {
     whiteSpace: "wrap",
   },
+  footer: {
+    position: 'absolute',
+    bottom: '0',
+    height: '2%',
+    textAlign: 'center',
+    background: 'rgba(0, 0, 0, 0.75)',
+    width: '100%',
+    color: 'white',
+  },
   dogPicture: {
     maxWidth: '98%',
     maxHeight: '98%',
@@ -37,8 +46,8 @@ const styles = {
     textShadow: '1px 1px 2px rgba(50, 50, 50, 0.75)',
   },
   miniDogPicture: {
-    width: '100px',
-    maxHeight: '120px',
+    maxWidth: '80%',
+    maxHeight: '64%',
     boxShadow: '2px 2px 2px 2px rgba(50, 50, 50, 0.75)',
     marginTop: '5px',
   },
@@ -58,14 +67,15 @@ const styles = {
   },
   miniDogRowOuter: {
     position: 'absolute',
-    bottom: '0',
+    bottom: '1.5%',
+    height: '19%',
     width: '100%',
     overflowX: 'scroll',
   },
   miniDogRow: {
     marginTop: '10px',
     width: '2850px',
-    height: '190px',
+    height: '90%',
     textAlign: 'center',
     position: 'relative',
     bottom: '0',
@@ -74,6 +84,7 @@ const styles = {
     position: 'absolute',
     bottom: '0',
     margin: '0 auto',
+    marginBottom: '-5%',
     left: '1%',
     right: '1%',
   },
